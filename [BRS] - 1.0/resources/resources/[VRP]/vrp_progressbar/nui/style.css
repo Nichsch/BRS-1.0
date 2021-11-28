@@ -1,0 +1,20 @@
+#body {
+	display: none;
+	overflow: hidden;
+}
+
+#outerdiv {
+	right: 110px;
+	bottom: 10px;
+	width: 211px;
+	height: 7px;
+	position: fixed;
+	background: rgba(0,0,0,0.4);
+	border-radius: 2px;
+}
+
+#innerdiv {
+	background: rgb(30, 170, 170);
+	height: 100%;
+	border-radius: 2px;
+}

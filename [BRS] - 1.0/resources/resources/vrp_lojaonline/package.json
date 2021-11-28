@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "asksocket": "^1.0.4",
+    "axios": "^0.19.2",
+    "mysql": "^2.18.1",
+    "unzipper": "^0.10.11"
+  }
+}

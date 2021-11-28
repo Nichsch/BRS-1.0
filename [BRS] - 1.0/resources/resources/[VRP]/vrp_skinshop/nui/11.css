@@ -1,0 +1,118 @@
+div { border: 0; outline: 0;vertical-align: baseline; background: transparent; margin: 0; padding: 0; }
+:focus { outline: 0; }
+::selection { background: transparent; }
+
+#menu {
+	transform: perspective(2000px) rotate3d(0.3, 0.2, 0, 15deg);
+	color: rgb(255, 255, 255);
+	border-radius: 45px;
+	background: linear-gradient(0deg, rgba(0,0,0,0.41) 15%, rgba(212, 21, 21, 0.3) 90%);
+	text-align: center;
+	font-family: Arial;
+	font-size: 1.5em;
+	border-collapse: separate;
+	border-spacing: 1em 0;
+	padding: 0px;
+	position: left;
+	width: 25%;
+	height: 85%;
+	overflow: hidden;
+}
+
+
+#botao {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	border-radius: 28px;
+}
+
+#color {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	font-size: 0.6em;
+	position: fixed;
+	right: 0.3%;
+	bottom: 10%;
+	white-space: nowrap;
+}
+
+#color span {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	background: linear-gradient(0deg, rgba(0,0,0,0.41) 15%, rgba(212, 21, 21, 0.3) 90%);
+	padding: 5% 5% 5% 5%;
+	border-radius: 13%;
+	margin-right: 4%;
+}
+
+#selectors {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	position: relative;
+}
+
+#selectors button {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	background: rgba(0, 0, 0, 0.35);
+	margin-top: 7px;
+	border: 1px solid #fff;
+	padding: 7px;
+}
+
+#selectors button:hover{
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	border: solid 0.1px red;
+	background: linear-gradient(0deg, rgba(0,0,0,0.41) 15%, rgba(212, 21, 21, 0.3) 90%);
+	
+}
+
+#selectors img {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	width: 32px;
+	height: 32px;
+}
+
+.item {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	border-radius: 0px;
+	height: 65%;
+	overflow-y: scroll;
+}
+
+.item button {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	display: inline-block;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	border-radius: 50px;
+	padding: 0px;
+	border: 1px solid #fff;
+}
+
+.item button:hover {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+	border: 3px solid rgb(131,174,0);
+}
+
+.item img {
+	transform: perspective(3000px) rotate3d(0, 3, 0, 15deg);
+    height: 80px;  
+	width: 80px;
+    border-radius: 43px;
+}
+
+
+::-webkit-scrollbar {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+  border: 1px solid #fff;
+  padding: 10px;
+  height: 30px;
+}
+ 
+::-webkit-scrollbar-thumb {
+	transform: perspective(4000px) rotate3d(0, 3, 0, 15deg);
+  background: #fff;
+  height: 10px;
+  border-radius: 10px;
+}

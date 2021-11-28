@@ -1,0 +1,71 @@
+html {
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	background-color: transparent !important;
+}
+
+body {
+  background-color: transparent !important;
+  background-color: red;
+}
+
+#notifications {
+	top: 40%;
+	right: 1%;
+	color: rgba(255,255,255,1);
+	max-width: 50px;
+	font-size: 0px;
+	position: absolute !important;
+	font-family: Arial,Helvetica,sans-serif;
+	z-index: 5000;
+}
+
+#notifications b {
+  font-weight: bolder;
+}
+
+#notifications div {
+	background-size: 30px;
+	float: right;
+	padding: 10px 10px 10px 45px;
+	border-radius: 25px;
+	margin: 10px;
+}
+
+.sucesso {
+  background: url("https://image.flaticon.com/icons/svg/190/190411.svg") 10px no-repeat;
+	background-color: rgba(91, 180, 120, 0.8);
+}
+
+.negado {
+	background: url("https://image.flaticon.com/icons/svg/190/190406.svg") 10px no-repeat;
+	background-color: rgba(180, 80, 80, 0.8);
+}
+
+.aviso {
+	background: url("https://image.flaticon.com/icons/svg/196/196759.svg") 10px no-repeat;
+	background-color: rgba(227, 190, 80, 0.8);
+}
+
+.financeiro {
+	background: url("https://i.imgur.com/cJQXqpf.png") 10px no-repeat;
+  background-color: white;
+  color: grey;
+}
+
+.importante {
+	background: url("https://image.flaticon.com/icons/svg/189/189664.svg") 10px no-repeat;
+	background-color: rgba(27, 118, 179, 0.8);
+}
+
+.sos {
+	background: url("https://image.flaticon.com/icons/svg/1786/1786528.svg") 10px no-repeat;
+	background-color: rgba(230,130,0,0.8);
+	color: white;
+}
+
+.msg {
+	background: url("https://image.flaticon.com/icons/svg/129/129481.svg") 10px no-repeat;
+  background-color: rgba(20, 187, 196, 0.8);
+  color: white;
+}
